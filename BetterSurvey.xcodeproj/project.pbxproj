@@ -8,25 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		640E1DDC1C764D0800F9EE06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640E1DDB1C764D0800F9EE06 /* AppDelegate.swift */; };
-		640E1DDE1C764D0800F9EE06 /* Survey1TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640E1DDD1C764D0800F9EE06 /* Survey1TestViewController.swift */; };
 		640E1DE11C764D0800F9EE06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 640E1DDF1C764D0800F9EE06 /* Main.storyboard */; };
 		640E1DE31C764D0800F9EE06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 640E1DE21C764D0800F9EE06 /* Assets.xcassets */; };
 		640E1DE61C764D0800F9EE06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 640E1DE41C764D0800F9EE06 /* LaunchScreen.storyboard */; };
 		640E1DF11C764D0800F9EE06 /* BetterSurveyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640E1DF01C764D0800F9EE06 /* BetterSurveyTests.swift */; };
 		640E1DFC1C764D0900F9EE06 /* BetterSurveyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640E1DFB1C764D0800F9EE06 /* BetterSurveyUITests.swift */; };
-		640E1E121C764E2500F9EE06 /* AnswerMultiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640E1E091C764E2500F9EE06 /* AnswerMultiCell.swift */; };
-		640E1E131C764E2500F9EE06 /* SeverityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640E1E0A1C764E2500F9EE06 /* SeverityTableViewCell.swift */; };
 		640E1E141C764E2500F9EE06 /* AnswerOneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640E1E0B1C764E2500F9EE06 /* AnswerOneCell.swift */; };
-		640E1E151C764E2500F9EE06 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640E1E0C1C764E2500F9EE06 /* CheckBox.swift */; };
 		640E1E161C764E2500F9EE06 /* QuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640E1E0D1C764E2500F9EE06 /* QuestionCell.swift */; };
-		640E1E171C764E2500F9EE06 /* QuesitonSeverityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640E1E0E1C764E2500F9EE06 /* QuesitonSeverityCell.swift */; };
 		640E1E181C764E2500F9EE06 /* SectionLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640E1E0F1C764E2500F9EE06 /* SectionLabelCell.swift */; };
 		640E1E191C764E2500F9EE06 /* SSRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640E1E101C764E2500F9EE06 /* SSRadioButton.swift */; };
 		640E1E1A1C764E2500F9EE06 /* SSRadioButtonsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640E1E111C764E2500F9EE06 /* SSRadioButtonsController.swift */; };
 		643A2C2B1C7CF1FB004C8E5A /* CustomSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643A2C2A1C7CF1FB004C8E5A /* CustomSurveyViewController.swift */; };
 		643A2C2D1C7D0102004C8E5A /* SurveyFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643A2C2C1C7D0102004C8E5A /* SurveyFunction.swift */; };
-		64FDC81C1C80D04F0081C285 /* TestAnswerOneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FDC81B1C80D04F0081C285 /* TestAnswerOneCell.swift */; };
-		64FDC81E1C80D1790081C285 /* TestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FDC81D1C80D1790081C285 /* TestCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +42,6 @@
 /* Begin PBXFileReference section */
 		640E1DD81C764D0800F9EE06 /* BetterSurvey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterSurvey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		640E1DDB1C764D0800F9EE06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		640E1DDD1C764D0800F9EE06 /* Survey1TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Survey1TestViewController.swift; sourceTree = "<group>"; };
 		640E1DE01C764D0800F9EE06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		640E1DE21C764D0800F9EE06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		640E1DE51C764D0800F9EE06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,19 +52,13 @@
 		640E1DF71C764D0800F9EE06 /* BetterSurveyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterSurveyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		640E1DFB1C764D0800F9EE06 /* BetterSurveyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSurveyUITests.swift; sourceTree = "<group>"; };
 		640E1DFD1C764D0900F9EE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		640E1E091C764E2500F9EE06 /* AnswerMultiCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerMultiCell.swift; sourceTree = "<group>"; };
-		640E1E0A1C764E2500F9EE06 /* SeverityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeverityTableViewCell.swift; sourceTree = "<group>"; };
 		640E1E0B1C764E2500F9EE06 /* AnswerOneCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerOneCell.swift; sourceTree = "<group>"; };
-		640E1E0C1C764E2500F9EE06 /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		640E1E0D1C764E2500F9EE06 /* QuestionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionCell.swift; sourceTree = "<group>"; };
-		640E1E0E1C764E2500F9EE06 /* QuesitonSeverityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuesitonSeverityCell.swift; sourceTree = "<group>"; };
 		640E1E0F1C764E2500F9EE06 /* SectionLabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionLabelCell.swift; sourceTree = "<group>"; };
 		640E1E101C764E2500F9EE06 /* SSRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButton.swift; sourceTree = "<group>"; };
 		640E1E111C764E2500F9EE06 /* SSRadioButtonsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButtonsController.swift; sourceTree = "<group>"; };
 		643A2C2A1C7CF1FB004C8E5A /* CustomSurveyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSurveyViewController.swift; sourceTree = "<group>"; };
 		643A2C2C1C7D0102004C8E5A /* SurveyFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyFunction.swift; sourceTree = "<group>"; };
-		64FDC81B1C80D04F0081C285 /* TestAnswerOneCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAnswerOneCell.swift; sourceTree = "<group>"; };
-		64FDC81D1C80D1790081C285 /* TestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,16 +110,9 @@
 			isa = PBXGroup;
 			children = (
 				640E1DDB1C764D0800F9EE06 /* AppDelegate.swift */,
-				640E1DDD1C764D0800F9EE06 /* Survey1TestViewController.swift */,
-				640E1E091C764E2500F9EE06 /* AnswerMultiCell.swift */,
 				643A2C2C1C7D0102004C8E5A /* SurveyFunction.swift */,
-				640E1E0A1C764E2500F9EE06 /* SeverityTableViewCell.swift */,
 				640E1E0B1C764E2500F9EE06 /* AnswerOneCell.swift */,
-				64FDC81D1C80D1790081C285 /* TestCell.swift */,
-				64FDC81B1C80D04F0081C285 /* TestAnswerOneCell.swift */,
-				640E1E0C1C764E2500F9EE06 /* CheckBox.swift */,
 				640E1E0D1C764E2500F9EE06 /* QuestionCell.swift */,
-				640E1E0E1C764E2500F9EE06 /* QuesitonSeverityCell.swift */,
 				640E1E0F1C764E2500F9EE06 /* SectionLabelCell.swift */,
 				640E1E101C764E2500F9EE06 /* SSRadioButton.swift */,
 				640E1E111C764E2500F9EE06 /* SSRadioButtonsController.swift */,
@@ -298,19 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				640E1E171C764E2500F9EE06 /* QuesitonSeverityCell.swift in Sources */,
 				640E1E141C764E2500F9EE06 /* AnswerOneCell.swift in Sources */,
 				643A2C2D1C7D0102004C8E5A /* SurveyFunction.swift in Sources */,
 				643A2C2B1C7CF1FB004C8E5A /* CustomSurveyViewController.swift in Sources */,
-				64FDC81C1C80D04F0081C285 /* TestAnswerOneCell.swift in Sources */,
-				640E1E131C764E2500F9EE06 /* SeverityTableViewCell.swift in Sources */,
-				640E1E151C764E2500F9EE06 /* CheckBox.swift in Sources */,
-				64FDC81E1C80D1790081C285 /* TestCell.swift in Sources */,
 				640E1E161C764E2500F9EE06 /* QuestionCell.swift in Sources */,
 				640E1E181C764E2500F9EE06 /* SectionLabelCell.swift in Sources */,
 				640E1E1A1C764E2500F9EE06 /* SSRadioButtonsController.swift in Sources */,
-				640E1DDE1C764D0800F9EE06 /* Survey1TestViewController.swift in Sources */,
-				640E1E121C764E2500F9EE06 /* AnswerMultiCell.swift in Sources */,
 				640E1DDC1C764D0800F9EE06 /* AppDelegate.swift in Sources */,
 				640E1E191C764E2500F9EE06 /* SSRadioButton.swift in Sources */,
 			);
